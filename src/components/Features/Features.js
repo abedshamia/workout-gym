@@ -10,7 +10,7 @@ import Features4 from "../../images/features4.svg";
 
 const Features = () => {
     return (
-        <section className="features" css={styles}>
+        <section className="features" id='about' css={styles}>
             <Container>
                 <Heading title="OUR FEATURES" info="There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration." />
                 <div className="featureWrapper">

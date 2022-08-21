@@ -6,13 +6,13 @@ import Button from "../Global/Button/Button";
 
 const Footer = () => {
     return (
-        <footer css={styles}>
+        <footer css={styles} id='subscribe'>
             <Container>
                 <FooterCard cardHeading="Gym">
                     <div className="firstCard">
                         <p>5th flora, 700/D kings road, green lane New York-1782</p>
-                        <a href="">+10 367 826 2567</a>
-                        <a href="">contact@carpenter.com</a>
+                        <p >+10 367 826 2567</p>
+                        <p>contact@carpenter.com</p>
                         <div className="social">
                             <i class="fab fa-facebook-f"></i>
                             <i class="fab fa-twitter"></i>
@@ -24,10 +24,9 @@ const Footer = () => {
                 </FooterCard>
                 <FooterCard cardHeading="Useful Links">
                     <div className="usefulLinks">
-                        <a href="">Pricing</a>
-                        <a href="">About</a>
-                        <a href="">Gallery  </a>
-                        <a href="">Contact</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#about">About</a>
+                        <a href="#gallery">Gallery  </a>
                     </div>
                 </FooterCard>
                 <FooterCard cardHeading="Subscribe">
@@ -41,7 +40,7 @@ const Footer = () => {
                 </FooterCard>
             </Container>
             <div className="copyright">
-                <p>Copyright ©2020 All rights reserved | This template is made with <i class="far fa-heart"></i> by Colorlib</p>
+                <p>Copyright ©2022 All rights reserved</p>
             </div>
         </footer>
     )
@@ -65,7 +64,7 @@ const styles = css`
             p {
                 color: #ccc;
             }
-            a {
+            p {
                 color: #ccc;
                 padding: 10px 0 0 0;
                 text-decoration: none;

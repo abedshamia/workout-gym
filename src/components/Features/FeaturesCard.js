@@ -15,6 +15,13 @@ const styles = css`
     width: 100%;
     max-width: 220px;
     text-align: center;
+    border: 2px solid transparent;
+    padding: 1.8rem;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+        border: 2px solid #ff1414;
+    }
     img {
         display: block;
         margin: 0 auto;

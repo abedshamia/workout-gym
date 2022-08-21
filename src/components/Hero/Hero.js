@@ -6,7 +6,7 @@ import HeroImage from "../../images/HeroImage.png";
 
 const Hero = () => {
     return (
-        <section className="hero" css={styles}>
+        <section className="hero" id="home" css={styles}>
             <div className="overlay"></div>
             <Container>
                 <div className="heroText">

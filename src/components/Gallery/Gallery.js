@@ -9,7 +9,7 @@ import Gallery6 from "../../images/gallery1.png";
 
 const Gallery = () => {
     return (
-        <section className="gallery" css={styles}>
+        <section id='gallery' className="gallery" css={styles}>
             <div className="img1">
                 <img src={Gallery1} alt="" />
             </div>

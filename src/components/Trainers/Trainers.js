@@ -13,7 +13,7 @@ import Trainer3 from "../../images/trainer3.png";
 
 const Trainers = () => {
     return (
-        <section className="trainers" css={styles}>
+        <section id='trainers' className="trainers" css={styles}>
             <Heading title="OUR TRAINERS" info="There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration." />
             <Container>
                 <TrainerCard trainerImg={Trainer3} trainerName="Jessica Mino" trainerType="Woman Trainer" />

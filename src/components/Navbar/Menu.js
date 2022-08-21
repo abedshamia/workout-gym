@@ -7,9 +7,8 @@ const Menu = ({ openMenu }) => (
         <a href="#about">about</a>
         <a href="#pricing">pricing</a>
         <a href="#gallery">gallery</a>
-        <a href="#pages">pages</a>
-        <a href="#blog">blog</a>
-        <a href="#contact">contact</a>
+        <a href="#trainers">trainers</a>
+        <a href="#subscribe">subscribe</a>
     </div>
 );
 

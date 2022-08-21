@@ -6,7 +6,7 @@ import PricingCard from "./PricingCard";
 
 const Pricing = () => {
     return (
-        <section className="pricing" css={styles}>
+        <section id='pricing' className="pricing" css={styles}>
             <Container>
                 <Heading title="OUR PRICING" info="There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration." />
                 <div className="wrapper">
